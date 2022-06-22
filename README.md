@@ -9,7 +9,7 @@ Created a simple Battleship State Tracker API
 
 | Endpoint | Method | Example | 
 | ------ | ------ | ------ |
-| Create | GET | https://localhost:5001/api/Tracker/create |
+| Create | POST | https://localhost:5001/api/Tracker/create |
 | Add | POST | https://localhost:5001/api/Tracker/add |
 | AddRandom | POST | https://localhost:5001/api/Tracker/addRandom |
 | Attack | GET | https://localhost:5001/api/Tracker/attack?xCoordinate=4&yCoordinate=7 |
