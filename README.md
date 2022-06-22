@@ -1,23 +1,29 @@
 # BattleshipStateTracker
 
 ## General Info
-I'm a software engineer applying for a position in Iress. Here are my information:
-  - Alfred Palacio
-  - palacio_alfred@yahoo.com / palacio.alfee@gmail.com
-  - 09178168576
+Created a simple Battleship State Tracker API
 
 ## How to use the program
 - Just build the program and run
-- You can type in commands like:
+- You can these endpoints:
 
-| Plugin | README |
+| Endpoint | Method | Example | 
 | ------ | ------ |
-| Place | The format is X coordinate, Y coordinate, Direction the Robot is facing (Place 1,2,North)|
-| Move | The robot will move forward the direction he is facing |
-| Left | The robot will face left |
-| Right | The robot will face right |
-| Report | Outputs the 'X,Y,Facing' data |
-| Exit | Exits the application |
+| Create | GET | https://localhost:5001/api/Tracker/create |
+| Add | POST | https://localhost:5001/api/Tracker/add |
+| AddRandom | POST | https://localhost:5001/api/Tracker/addRandom |
+| Attack | GET | https://localhost:5001/api/Tracker/attack?xCoordinate=4&yCoordinate=7 |
+| Status | GET | https://localhost:5001/api/Tracker/status |
+
+### Example payload for Add endpoint
+```
+{
+    "XCoordinate":1,
+    "YCoordinate":1,
+    "Length":9,
+    "IsHorizontal":true
+}
+```
 
 ## Unit tests
 I've added a few which can be ran after building the solution. Thank you.
