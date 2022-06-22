@@ -8,7 +8,7 @@ Created a simple Battleship State Tracker API
 - You can these endpoints:
 
 | Endpoint | Method | Example | 
-| ------ | ------ |
+| ------ | ------ | ------ |
 | Create | GET | https://localhost:5001/api/Tracker/create |
 | Add | POST | https://localhost:5001/api/Tracker/add |
 | AddRandom | POST | https://localhost:5001/api/Tracker/addRandom |
